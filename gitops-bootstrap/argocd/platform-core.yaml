@@ -9,7 +9,7 @@ spec:
       repoURL: https://github.com/icklers/platform-gitops-demo2.git
       revision: HEAD
       directories:
-      - path: platform-core/*
+      - path: platform-core
   template:
     metadata:
       name: '{{path.basename}}'
